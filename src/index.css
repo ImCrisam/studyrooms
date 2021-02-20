@@ -1,3 +1,9 @@
 @tailwind base;
+@font-face {
+    font-family: Segoe;
+    font-weight: 400;
+    src: url(assets/font/Segoe\ UI.woff) format("woff");
+  }
+
 @tailwind components;
 @tailwind utilities;

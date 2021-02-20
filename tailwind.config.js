@@ -2,16 +2,17 @@ module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      black: "#000000",
-      blue: "#27293f",
-      red: "#FF7573",
-      yellow: "#FBAD49",
-      white: "#FFFFFF"
+   
+    fontFamily: {
+      'sans': ['Segoe', 'Helvetica', 'Arial', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FBAD49",
+        secondary: "#27293f",
+        tertiary: "#FF7573",
+      },
+    },
   },
   variants: {
     extend: {},
