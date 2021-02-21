@@ -12,6 +12,11 @@ module.exports = {
         secondary: "#27293f",
         tertiary: "#FF7573",
       },
+      spacing: {
+        '50vh': '50vh',
+        '75vh': '75vh',
+        
+      },
     },
   },
   variants: {

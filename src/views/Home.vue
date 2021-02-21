@@ -1,13 +1,16 @@
 <template>
-  <Navbar />
+  <nav-bar />
+  <section-search />
 </template>
 
 <script>
-import Navbar from '../components/NavBar'
+import NavBar from '../components/NavBar.vue'
+import SectionSearch from '../components/SectionSearch.vue'
 export default {
   name: 'Home',
   components: {
-    Navbar
+    SectionSearch,
+    NavBar
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-primary">
     <!--  -> no mobile -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class=" mx-auto px-4 sm:px-6">
       <div
         class="flex justify-between items-center  py-4 md:justify-start md:space-x-6"
       >
